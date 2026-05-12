@@ -5,11 +5,10 @@ import { CACHE_PROFILES, applyCacheProfile } from "@/lib/cache-manifest";
 import { ProductList } from "@/ui/components/product-list";
 
 export const metadata = {
-	title: "ACME Storefront, powered by Saleor & Next.js",
+	title: "Yugantar Store | Desi Products for Everyday India",
 	description:
-		"Storefront Next.js Example for building performant e-commerce experiences with Saleor - the composable, headless commerce platform for global brands.",
+		"Yugantar Store by Tech Yugantar brings you authentic desi products with quality, trust, and tradition. Shop curated Indian essentials and lifestyle products online.",
 };
-
 /**
  * Cached function to fetch featured products.
  * Returns [] on failure so the page always renders (never null).

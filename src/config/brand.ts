@@ -3,47 +3,42 @@
  *
  * Centralized branding settings for the storefront.
  * Update these values when customizing for a new store.
- *
- * @example
- * ```tsx
- * import { brandConfig } from "@/config/brand";
- *
- * <title>{brandConfig.siteName}</title>
- * <p>© {new Date().getFullYear()} {brandConfig.copyrightHolder}</p>
- * ```
  */
 
 export const brandConfig = {
 	/** Site name used in titles, metadata, and headers */
-	siteName: "Saleor Store",
+	siteName: "Yugantar Store",
 
 	/** Legal entity name for copyright notices */
-	copyrightHolder: "Saleor Demo Store",
+	copyrightHolder: "Tech Yugantar",
 
 	/** Organization name for structured data (JSON-LD) */
-	organizationName: "Saleor Store",
+	organizationName: "Tech Yugantar",
 
 	/** Default brand name for products without a brand */
-	defaultBrand: "Saleor Store",
+	defaultBrand: "Yugantar Store",
 
 	/** Tagline/description for the store */
-	tagline: "Premium products with exceptional quality. Discover our curated collection.",
+	tagline: "Apne Desh Ke Products, Apne Yugantar Store Se.",
 
 	/** Homepage meta description */
-	description: "Starter pack for building performant e-commerce experiences with Saleor.",
+	description:
+		"Yugantar Store brings you authentic desi products with quality, trust, and tradition. Explore a curated collection inspired by Indian culture and everyday needs.",
 
 	/** Logo aria-label for accessibility */
-	logoAriaLabel: "Store",
+	logoAriaLabel: "Yugantar Store",
 
 	/** Title template - %s will be replaced with page title */
-	titleTemplate: "%s | Saleor Store",
+	titleTemplate: "%s | Yugantar Store",
 
 	/** Social media handles */
 	social: {
 		/** Twitter/X handle (without @) - set to null to disable */
 		twitter: null as string | null,
+
 		/** Instagram handle (without @) - set to null to disable */
 		instagram: null as string | null,
+
 		/** Facebook page URL - set to null to disable */
 		facebook: null as string | null,
 	},

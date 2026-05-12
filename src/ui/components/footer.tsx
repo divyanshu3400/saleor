@@ -70,7 +70,8 @@ export async function Footer({ channel }: { channel: string }) {
 							<Logo className="h-7 w-auto" inverted />
 						</Link>
 						<p className="mt-4 max-w-xs text-sm leading-relaxed text-neutral-400">
-							Minimal design, maximum impact. Thoughtfully crafted essentials for everyday comfort.
+							Authentic desi products crafted for everyday Indian living. Quality, tradition, and trust — all
+							in one place.
 						</p>
 					</div>
 

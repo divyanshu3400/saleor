@@ -13,18 +13,19 @@ const config = {
 		// (max 3 concurrent requests + 200ms delay between requests)
 	},
 	images: {
+		unoptimized: true,
 		remotePatterns: [
 			{
-				// Saleor Cloud CDN
+				protocol: "http",
+				hostname: "api.techyugantar.shop",
+				port: "55001",
+				pathname: "/media/**",
+			},
+			{
 				hostname: "*.saleor.cloud",
 			},
 			{
-				// Saleor Media (common pattern)
 				hostname: "*.media.saleor.cloud",
-			},
-			{
-				// Allow all hostnames in development (restrict in production)
-				hostname: "*",
 			},
 		],
 	},
