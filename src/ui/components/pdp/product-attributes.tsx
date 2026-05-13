@@ -107,7 +107,7 @@ export function ProductAttributes({
 				</AccordionItemWithContext>
 			)}
 
-			<AccordionItemWithContext value="shipping" className="border-border">
+			{/* <AccordionItemWithContext value="shipping" className="border-border">
 				<AccordionTrigger className="py-4 text-sm font-medium hover:no-underline">
 					Shipping & Returns
 				</AccordionTrigger>
@@ -115,7 +115,7 @@ export function ProductAttributes({
 					<p className="mb-2">Free shipping on orders over €100. Standard delivery 3-5 business days.</p>
 					<p>Free returns within 30 days of purchase. Items must be unworn with tags attached.</p>
 				</AccordionContent>
-			</AccordionItemWithContext>
+			</AccordionItemWithContext> */}
 		</Accordion>
 	);
 }
